@@ -1,0 +1,30 @@
+rules:
+  - id: freight_trust_corp
+    pattern: freight_trust
+    message: Freight Trust & Clearing Corporation
+
+import:
+  - https://raw.githubusercontent.com/sider/goodcheck-rules/master/rules/typo.yml
+
+
+exclude:
+  - "**/build"
+  - "**/node_modules"
+  - "**/vendor"
+  - "**/*.{ico,pdf,png}"
+  - "**/yarn.lock"
+
+---
+name: fr8/governance
+version: v0.0.1
+include:
+  - "**/*"
+supports_arg_sep: false
+metadata:
+  languages:
+    - Any
+  tests:
+    - contents: |
+        FreightTrust Network Governance
+      restyled: |
+        Freight Trust Network Governance
