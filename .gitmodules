@@ -1,3 +1,6 @@
 [submodule "rfc"]
 	path = rfc
 	url = https://github.com/freight-chain/rfc.git
+[submodule "omnibus"]
+	path = omnibus
+	url = https://github.com/freight-chain/omnibus.git
